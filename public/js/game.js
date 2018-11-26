@@ -1,7 +1,10 @@
+const ANCHO = 800;
+const ALTO = 600;
+
 // Configuramos nuestro juego
 var config = {
-    width: 800,
-    height: 600,
+    width: ANCHO,
+    height: ALTO,
     backgroundColor: "#ffffff",
     scene: {
         preload: precarga,
@@ -62,7 +65,7 @@ function update() {
     // Comprobamos que no estamos muertos
     if (!muerto) {
         // Establecemos la posicion de la camara al centro de nuestra pelota
-        this.cameras.main.setScroll(posicionJugador.x - 400, posicionJugador.y - 300);
+        this.cameras.main.setScroll(posicionJugador.x - (ANCHO/2), posicionJugador.y - (ALTO/2));
 
         // Establecemos el zoom de la camara segun nuestro tamaño
         this.cameras.main.setZoom(50/tamanoJugador);
