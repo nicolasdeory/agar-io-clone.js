@@ -1,9 +1,10 @@
 # agar-io-clone.js
 
-Un clon de Agar.io creado con Socket.io y Phaser.
+An Agar.io clone created with Socket.io and Phaser.
+Made for a seminar about multiplayer game development.
 
-## Requerimientos
+## Requirements
 - Visual Studio Code
-- Node.js (descargar la versión LTS [aquí](https://nodejs.org/es/))
-- Las assets de la carpeta `/public/assets`
-- Archivos `phaser.min.js` y `socket.io.js`, que están en `/public/js`
+- Node.js (download LTS [aquí](https://nodejs.org/es/))
+- Assets from `/public/assets`
+- Files `phaser.min.js` and `socket.io.js`, located in `/public/js`
